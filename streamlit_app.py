@@ -2,9 +2,9 @@ import streamlit as st
 from PIL import Image
 import os
 
-from src.model_pipeline import FoodDetector
-from src.calorie_estimator import CalorieEstimator
-from src.chatbot import NutritionChatbot
+from model_pipeline import FoodDetector
+from calorie_estimator import CalorieEstimator
+from chatbot import NutritionChatbot
 
 # ---------------- CONFIG ----------------
 st.set_page_config(page_title="NutriVision AI", layout="wide")
